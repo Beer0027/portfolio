@@ -1,0 +1,262 @@
+.modal-dialog {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.navbar-toggler span {
+    color: green;
+}
+
+.paper, .resume > .col-md:last-child {
+    background-image:url(../images/paper2\ copy.png);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding:4rem;
+}
+
+.paper span, .modal-title {
+text-transform: uppercase;
+color:rgb(47, 54, 77);
+font-weight: bold;
+font-size: 1.8rem;
+}
+
+span{
+    display: block;
+    font-size: 1.2rem;
+    margin-top: .8rem;
+}
+
+.intro h1, .intro h2 {
+    margin-bottom:2rem;
+}
+
+.intro p {
+ width: 65%;
+margin: 0 auto 2rem;
+}
+
+.resume > .col-md {
+    padding:1rem;
+    margin:1rem;
+    background: #102A43;
+}
+
+nav img{
+    width: 100px;
+    object-fit: contain;
+    height: auto;
+}
+
+.modal img {
+    height: auto;
+}
+
+.modal-title, .modal-body {
+color: #222;
+}
+
+footer { 
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 2rem 0;
+}
+
+.btn-link, .btn-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-link:hover, .btn-link:hover a {
+    color: #f0c000;
+    animation-name: link-hover;
+	animation-duration: 0.7s;
+}
+
+@keyframes link-hover {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.25);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.row  {
+    background-color: #627D98bb;
+    padding:2rem;
+    margin:5rem 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body{
+    background-image: url(../images/bluefelt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: Lato;
+}
+
+img {
+    height: 260px;
+    width:100%;
+    object-fit: cover;
+    background-position: 0 50%;
+    cursor: pointer;
+}
+
+.modal img {
+    object-fit: contain;
+}
+
+label, input {
+    width: 100%;
+    text-align: left;
+    margin:0.2rem 0;
+}
+.col-md {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.rounded-3 {
+    border-radius: 0.8rem !important;
+}
+
+.btn-primary {
+    border-radius: 2rem;
+    background: #627D98bb;
+    border-color: #f5f7fa;
+}
+
+.btn-primary:hover{
+    animation-name: link-hover;
+	animation-duration: 0.7s;
+    background: #627D98bb;
+    border-color: #f0c000;
+}
+
+.paper {
+    order: -1;
+}
+
+.message textarea {
+    width: 100%;
+    resize: none;
+    padding: 0 0.4rem;
+    height: 158px;
+}
+
+.message .btn-primary {
+margin-bottom: 7px;
+}
+
+input, textarea {
+    padding-left:0.4rem;
+}
+
+.nav-item a::after {
+	content: "";
+	height: 3px;
+	width: 0;
+	background: #f0c000;
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+}
+
+.nav-item a {
+	position: relative;
+}
+
+.nav-item a:hover::after {
+	width: 100%;
+	transition: .5s;
+}
+
+.navbar-toggler-icon {
+    margin:0;
+}
+
+form {
+        background: #102A43;
+        padding:1rem;
+}
+
+.message {
+    background: #102A43;
+    flex: 0 0 auto;
+}
+
+
+@media (min-width: 576px) { 
+    img {
+        height: 500px;
+    }
+
+    .paper, .resume > .col-md:last-child {
+        padding:8rem;
+    }
+}
+
+@media (min-width: 768px) { 
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-around;
+        margin:1.2rem 0 !important;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    .col-md {
+        margin: 0;
+    }
+
+    .paper, .resume > .col-md:last-child {
+        padding:7rem 0;
+        flex: 0 0 26%;
+        order: 0;
+    }
+
+    form {
+        background: #102A43;
+        padding:1rem;
+    }
+
+    .row {
+        flex-wrap: nowrap;
+    }
+
+    .message {
+        flex: 2 0 0%;
+    }
+
+    .message label {
+        display: block;
+        text-align: left;
+    }
+
+    .row:nth-child(even) .paper {
+        margin-right:1.5rem;
+    }
+
+    .row:nth-child(odd) .paper {
+        margin-left:1.5rem;
+    }
+}
