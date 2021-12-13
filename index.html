@@ -20,7 +20,7 @@
 
 <body>
   <header>
-
+    <!-- hamburger nav at all times which collapses and expands on use -->
     <nav class="navbar navbar-dark">
       <div class="container-xl">
         <a class="navbar-brand" href="index.html"><img src="images/Personal Logo.png"></a>
@@ -55,6 +55,7 @@
     </nav>
 
   </header>
+  <!-- to set size of the content -->
   <main class="container-xl">
     <!-- banner section -->
     <section class="banner container-xl" id="home">
@@ -71,11 +72,12 @@
           to provide the best experience for all my customers and clients. I love to help my clients create
           their vision and help expand their online presence.
         </p>
-
-        <button type="button" class="btn btn-primary">Contact</button>
+        <!-- button to contact section -->
+        <button type="button" class="btn btn-primary"><a href="#contact">Contact</a></button>
       </div>
     </section>
     <!-- graphics section -->
+    <!-- create 1 row for column design for desktop -->
     <section class="row rounded-3" id="graphics">
       <div class="col-md paper align-items-center justify-content-center rounded-3">
         <span>Graphics</span>
@@ -168,6 +170,7 @@
       </div>
     </section>
     <!-- Contact section -->
+    <!-- one contact form visually split between two divs -->
     <section class="row rounded-3" id="contact">
       <div class="col-md paper align-items-center justify-content-center rounded-3">
         <span>Contact</span>
@@ -192,7 +195,7 @@
     </section>
 
     <!-- Modals -->
-
+    <!-- all modals are used to pop up a window with further information of the category and a better view of the image with an image description -->
     <div class="modal fade" id="logoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -376,7 +379,7 @@
     <button class="btn btn-link"><a href="#top">Back to Top</a></button>
     <button class="btn btn-link"><a href="#contact">Contact Me!</a></button>
   </footer>
-
+<!-- bootstrap functionality -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>

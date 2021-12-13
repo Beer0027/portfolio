@@ -1,4 +1,5 @@
 .modal-dialog {
+    /* to set the size of pop up window modal */
     width: 100%;
     padding-right: var(--bs-gutter-x, .75rem);
     padding-left: var(--bs-gutter-x, .75rem);
@@ -13,6 +14,7 @@
 
 .paper,
 .resume>.col-md:last-child {
+    /* to properly align items specifically within resume section */
     background-image: url(../images/paper2\ copy.png);
     display: flex;
     align-items: center;
@@ -22,12 +24,13 @@
 
 .paper span,
 .modal-title {
+    /* to title the sections of the pop up modals */
     text-transform: uppercase;
     color: rgb(47, 54, 77);
     font-weight: bold;
     font-size: 1.8rem;
 }
-
+/* to apply appropriate spacing and sizing of elements */
 span {
     display: block;
     font-size: 1.2rem;
@@ -51,6 +54,7 @@ span {
 }
 
 nav img {
+    /* to make images clear before selected to open modal */
     width: 100px;
     object-fit: contain;
     height: auto;
@@ -62,17 +66,20 @@ nav img {
 
 .modal-title,
 .modal-body {
+    /* font color of modal content */
     color: #222;
 }
 
 footer {
+    /* space footer content */
     display: flex;
     justify-content: space-around;
     padding: 0 0 2rem 0;
 }
-
+/* animations for buttons */
 .btn-link,
-.btn-link a {
+.btn-link a,
+.btn-primary a {
     color: #fff;
     text-decoration: none;
 }
@@ -105,7 +112,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
-
+/* background image of the portfolio */
 body {
     background-image: url(../images/bluefelt.jpg);
     background-repeat: no-repeat;
@@ -123,6 +130,7 @@ img {
 }
 
 .modal img {
+    /* to show full image in modal view */
     object-fit: contain;
 }
 
@@ -143,9 +151,10 @@ input {
 }
 
 .rounded-3 {
+    /* to overwrite bootstrap radius */
     border-radius: 0.8rem !important;
 }
-
+/* style buttons outside of footer */
 .btn-primary {
     border-radius: 2rem;
     background: #627D98bb;
@@ -178,7 +187,7 @@ input,
 textarea {
     padding-left: 0.4rem;
 }
-
+/* animation for nav hover */
 .nav-item a::after {
     content: "";
     height: 3px;
@@ -212,7 +221,7 @@ form {
     flex: 0 0 auto;
 }
 
-
+/* media queries for tablet and mobile */
 @media (min-width: 576px) {
     img {
         height: 500px;
