@@ -6,12 +6,13 @@ I created my portfolio during my UX/UI Design class. The purpose of this portfol
 
 ## Challenges I Faced Creating My Portfolio
 
-I had issues deciding how many detail I wanted to add to it. As I mentioned, I wanted it to be simple and user-friendly so adding a lot of features and content is something I wanted to try to stay away from in some regards. Additionally, I had issues with the Navigation. I still don't know if I am happy with how it is. I think I would like the nav to follow the user as they scroll through the page, but I think that would hinder the experience and I don't think the Nav is bad how it currently is. 
+I had issues deciding how many detail I wanted to add to it. As I mentioned, I wanted it to be simple and user-friendly so adding a lot of features and content is something I wanted to try to stay away from in some regards. Additionally, I had issues with the Navigation. I still don't know if I am happy with how it is. I think I would like the nav to follow the user as they scroll through the page, but I think that would hinder the experience and the page isn't that long and it promotes the user to see more of the content.
 
 Most issues were resolved through troubleshooting. If the spacing wasn't ideal, I would just do a trial and error readjustment for example. Other issues (in terms of design) were resolved through determining the true needs/intended experience of the user and then catering the coding to fulfill those needs.
 
 ## Resources Used
 
-Bootstrap CSS 5.0 for most responsiveness and design of the portfolio
+Bootstrap CSS 5.0 for base responsiveness and design of the portfolio
+Additionally CSS added to complete design and responsiveness
 Font used: Lato
 All images and content created by me
