@@ -7,15 +7,10 @@
     margin-left: auto;
 }
 
-
-.navbar-toggler span {
-    color: green;
-}
-
 .paper,
 .resume>.col-md:last-child {
     /* to properly align items specifically within resume section */
-    background-image: url(../images/paper2\ copy.png);
+    background-image: url(../images/paper22\.png);
     display: flex;
     align-items: center;
     text-align: center;
@@ -30,6 +25,7 @@
     font-weight: bold;
     font-size: 1.8rem;
 }
+
 /* to apply appropriate spacing and sizing of elements */
 span {
     display: block;
@@ -76,6 +72,7 @@ footer {
     justify-content: space-around;
     padding: 0 0 2rem 0;
 }
+
 /* animations for buttons */
 .btn-link,
 .btn-link a,
@@ -112,6 +109,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
+
 /* background image of the portfolio */
 body {
     background-image: url(../images/bluefelt.jpg);
@@ -154,6 +152,7 @@ input {
     /* to overwrite bootstrap radius */
     border-radius: 0.8rem !important;
 }
+
 /* style buttons outside of footer */
 .btn-primary {
     border-radius: 2rem;
@@ -187,6 +186,7 @@ input,
 textarea {
     padding-left: 0.4rem;
 }
+
 /* animation for nav hover */
 .nav-item a::after {
     content: "";
@@ -245,7 +245,7 @@ form {
         margin: 1rem;
         background: #102A43;
     }
-    
+
     img {
         height: 200px;
     }
